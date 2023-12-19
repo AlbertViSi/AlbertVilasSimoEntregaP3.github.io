@@ -1,6 +1,5 @@
 body{
   margin: auto;
-  font-size: 1.5rem;
 }
 /* Cabecera programa */
 header{
@@ -11,6 +10,7 @@ header{
   padding-right: 5%;
   padding-bottom:1%;
   padding-top:1%;
+  font-size: 1.5rem;
 }
 .cab{
   height:7%;
