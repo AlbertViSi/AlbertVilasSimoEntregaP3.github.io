@@ -3,7 +3,7 @@ body{
 }
 /* Cabecera programa */
 header{
-  height:5%;
+
 }
 .cab{
   margin-left: 5%;
@@ -13,6 +13,8 @@ header{
   position: sticky;
   display: flex;
   flex-direction: row;
+  vertical-align: center;
+  height:5%;
 }
 .menu{
   text-align: right;
