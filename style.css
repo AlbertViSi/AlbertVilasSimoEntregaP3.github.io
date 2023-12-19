@@ -1,37 +1,58 @@
+/* Codigo general compartido en todo el programa*/
 body{
-  margin: auto;
-  font-size: 1rem;
+	margin: auto;
+	background-color:rgb(255,0,0);
+	font-family:'Lato', 'Noto Serif';
+}
+li{
+	list-style: none;
+}
+a{
+	color:rgb(191, 12, 240);
+	text-decoration: underline dotted;
+}
+a:hover{
+	color:rgb(0, 59, 74);
 }
 /* Cabecera programa */
 header{
-  text-align: center;
-  background-color:rgb(255,255,255);
-  vertical-align: center;
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-bottom:1%;
-  padding-top:1%;
+	background-color:rgb(247, 247, 247);
+	vertical-align: center;
+	padding-left: 5%;
+	padding-right: 5%;
+	font-size: 1rem;
 }
 .cab{
-  height:7%;
-  position: sticky;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
+	height:10%;
+	position: sticky;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
 }
 .logo{
 	height: 5vh;
-  text-align: left;
 }
 .menu{
-  text-align: right;
+	text-align: right;
+}
+.lis{
+	display: inline;
+	padding-left: 1rem;
+}
+.hlin{
+	color:rgb(0,59,74);
+	text-decoration: none;
+	font-weight:700;
+}
+.hlin:hover{
+	color:rgb(191,12,240);
 }
 /* Pie de pagina */
 footer{
-  background-color: rgb(0,0,0);
-  height:10%;
+	background-color: rgb(0,0,0);
+	height:10%;
 }
 .pie{
-  margin-left: 5%;
-  margin-right: 5%;
+	margin-left: 5%;
+	margin-right: 5%;
 }
