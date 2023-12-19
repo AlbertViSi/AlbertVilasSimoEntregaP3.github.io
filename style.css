@@ -22,7 +22,7 @@ header{
 	font-size: 1rem;
 }
 .cab{
-	height:10%;
+	height:5rem;
 	position: sticky;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
@@ -54,7 +54,6 @@ header{
 /* Pie de pagina */
 footer{
 	background-color: rgb(0,0,0);
-	height:10%;
 }
 .pie{
 	margin-left: 5%;
