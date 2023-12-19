@@ -6,15 +6,14 @@ header{
   text-align: right;
 }
 .cab{
-  margin-left: 10%;
-  margin-right:10%;
+  margin-left: 5%;
+  margin-right:5%;
   height:10%;
   position: sticky;
   vertical-align: center;
 }
 .logo{
   float: left;
-  height:10%;
 }
 /* Pie de pagina */
 footer{
