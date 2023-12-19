@@ -12,10 +12,11 @@ header{
   padding-top:1%;
 }
 .cab{
-  height:10%;
+  height:7%;
   position: sticky;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  align-items: center;
 }
 .logo{
 	height: 5vh;
