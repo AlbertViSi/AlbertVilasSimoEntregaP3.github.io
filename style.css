@@ -1,3 +1,11 @@
 body{
   margin: auto;
 }
+/* Cabecera programa */
+header{
+  text-align: right;
+}
+/* Pie de pagina */
+footer{
+  background-color: rgb(0,0,0)
+}
