@@ -5,6 +5,9 @@ body{
 header{
   text-align: right;
 }
+.logo{
+  float: left;
+}
 /* Pie de pagina */
 footer{
   background-color: rgb(0,0,0)
