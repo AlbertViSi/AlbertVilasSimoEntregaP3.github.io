@@ -10,7 +10,7 @@ body{
   height:10%;
   position: sticky;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 .logo{
   max-height: 100%;
