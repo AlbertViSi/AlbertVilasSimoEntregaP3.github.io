@@ -10,10 +10,15 @@ header{
   margin-right:5%;
   height:10%;
   position: sticky;
-  vertical-align: center;
+  display: flex;
+  flex-direction: column;
 }
 .logo{
-  float: left;
+  height: 100%;
+  text-align: left;
+}
+.menu{
+  text-align: right;
 }
 /* Pie de pagina */
 footer{
