@@ -8,8 +8,9 @@ header{
 .cab{
   margin-left: 10%;
   margin-right:10%;
-  height:15%;
+  height:10%;
   position: sticky;
+  vertical-align: center;
 }
 .logo{
   float: left;
