@@ -4,6 +4,8 @@ body{
 /* Cabecera programa */
 header{
   text-align: right;
+}
+.cab{
   margin-left: 10%;
   margin-right:10%;
 }
@@ -13,6 +15,5 @@ header{
 /* Pie de pagina */
 footer{
   background-color: rgb(0,0,0);
-  margin-left:10%;
-  margin-right:10%;
 }
+
