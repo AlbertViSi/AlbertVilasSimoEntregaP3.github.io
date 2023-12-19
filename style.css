@@ -12,11 +12,14 @@ header{
   padding-top:1%;
 }
 .cab{
+  height:10%;
   position: sticky;
-  display: flex;
-  flex-direction: row;
-  vertical-align: center;
-  height:5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.logo{
+	height: 5vh;
+  text-align: left;
 }
 .menu{
   text-align: right;
