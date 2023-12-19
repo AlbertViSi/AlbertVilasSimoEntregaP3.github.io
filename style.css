@@ -14,10 +14,6 @@ header{
   display: flex;
   flex-direction: row;
 }
-.logo{
-  height: 100%;
-  text-align: left;
-}
 .menu{
   text-align: right;
 }
