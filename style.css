@@ -13,6 +13,7 @@ body{
   flex-direction: row;
 }
 .logo{
+  height: 50%;
   text-align: left;
 }
 .menu{
