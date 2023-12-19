@@ -2,9 +2,6 @@ body{
   margin: auto;
 }
 /* Cabecera programa */
-header{
-  text-align: right;
-}
 .cab{
   margin-left: 5%;
   margin-right: 5%;
