@@ -3,7 +3,7 @@ body{
 }
 /* Cabecera programa */
 header{
-  height:10%;
+  height:5%;
 }
 .cab{
   margin-left: 5%;
@@ -15,7 +15,7 @@ header{
   flex-direction: row;
 }
 .logo{
-  height: 100px;
+  height: 100%;
   text-align: left;
 }
 .menu{
