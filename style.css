@@ -38,6 +38,11 @@ header{
 	display: inline;
 	padding-left: 1rem;
 }
+.lis2{
+	display: inline;
+	padding-left: 1rem;
+	border-left: 1px solid;
+}
 .hlin{
 	color:rgb(0,59,74);
 	text-decoration: none;
