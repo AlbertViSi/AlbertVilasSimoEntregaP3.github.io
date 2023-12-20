@@ -1,7 +1,7 @@
 /* Codigo general compartido en todo el programa*/
 body{
   margin: auto;
-  background-color:rgb(255,0,0);
+  background-color:rgb(247, 247, 247);
   font-family:'Lato', 'Noto Serif';
 }
 li{
@@ -22,7 +22,6 @@ a:hover{
 }
 /* Cabecera programa */
 header{
-  background-color:rgb(247, 247, 247);
   vertical-align: center;
   padding-left: 3vw;
   padding-right: 3vw;
