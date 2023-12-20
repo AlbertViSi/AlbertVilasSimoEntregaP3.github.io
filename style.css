@@ -1,8 +1,8 @@
 /* Codigo general compartido en todo el programa*/
 body{
-	margin: auto;
-	background-color:rgb(247, 247, 247);
-	font-family:'Lato', 'Noto Serif';
+  margin: auto;
+  background-color:rgb(255,0,0);
+  font-family:'Lato', 'Noto Serif';
 }
 li{
 	list-style: none;
@@ -14,25 +14,29 @@ a{
 a:hover{
 	color:rgb(0, 59, 74);
 }
+.right{
+  text-align: right;
+}
+.left{
+  text-align: left;
+}
 /* Cabecera programa */
 header{
-	vertical-align: center;
-	padding-left: 3vw;
-	padding-right: 3vw;
-	font-size: 1rem;
+  background-color:rgb(247, 247, 247);
+  vertical-align: center;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  font-size: 1rem;
 }
 .cab{
-	height:5rem;
-	position: sticky;
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	align-items: center;
+  height:5rem;
+  position: sticky;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
 }
 .logo{
 	height: 2.5rem;
-}
-.menu{
-	text-align: right;
 }
 .lis{
 	display: inline;
@@ -53,10 +57,47 @@ header{
 }
 /* Pie de pagina */
 footer{
-	background-color: rgb(0, 59, 74);
-	color:rgb(255,255,255);
+  background-color: rgb(0, 59, 74);
+  color:rgb(255,255,255);
+  padding-left: 3vw;
+  padding-right: 3vw;
+  padding-top: 2vw;
+  padding-bottom: 4vw;
 }
-.pie{
-	margin-left: 3vw;
-	margin-right: 3vw;
+.pie1{
+  position: sticky;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+.lis3{
+	display: inline;
+	padding-left: 0.5rem;
+}
+.lis4{
+	display: inline;
+	padding-left: 0.5rem;
+	padding-right:0.5rem;
+	border-left: 1px solid;
+}
+.pie2{
+  position: sticky;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  font-size: 0.7rem;
+  
+}
+.ilin{
+	text-decoration: none;
+}
+.ilin:hover{
+	opacity:0.7;
+}
+.elin{
+	color:rgb(255,255,255);
+	text-decoration: none;
+}
+.elin:hover{
+	color:rgb(229,225,254);
 }
