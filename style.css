@@ -20,6 +20,9 @@ a:hover{
 .left{
   text-align: left;
 }
+ul{
+	padding:0;
+}
 /* Cabecera programa */
 header{
   vertical-align: center;
