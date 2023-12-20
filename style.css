@@ -63,11 +63,21 @@ footer{
   padding-top: 2vw;
   padding-bottom: 4vw;
 }
-.pie1{
+@media (min-width: 600px){
+#pie1{
   position: sticky;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
+}
+.lis1{
+	display: inline;
+	padding-right: 0.5rem;
+}
+.lis5{
+	display: inline;
+	padding-left: 0.5rem;
+	border-left: 1px solid;
 }
 .lis3{
 	display: inline;
@@ -79,13 +89,38 @@ footer{
 	padding-right:0.5rem;
 	border-left: 1px solid;
 }
-.pie2{
+#pie2{
   position: sticky;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
   font-size: 0.7rem;
-  
+}
+}
+@media (max-width: 600px){
+#pie1{
+  position: sticky;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  text-align:center;
+}
+.lis1{
+}
+.lis5{
+}
+.lis3{
+}
+.lis4{
+}
+#pie2{
+  position: sticky;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  font-size: 0.7rem;
+  text-align:center;
+}
 }
 .ilin{
 	text-decoration: none;
