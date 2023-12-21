@@ -25,10 +25,11 @@ ul{
 }
 /* Cabecera programa */
 header{
-  vertical-align: center;
-  padding-left: 3vw;
-  padding-right: 3vw;
-  font-size: 1rem;
+	background-color:rgb(255, 255, 255);
+	vertical-align: center;
+	padding-left: 3vw;
+	padding-right: 3vw;
+	font-size: 1rem;
 }
 .cab{
   height:5rem;
@@ -137,4 +138,9 @@ footer{
 }
 .elin:hover{
 	color:rgb(229,225,254);
+}
+
+/*Codigo para la parte index.html*/
+.speHead{
+	background-color:rgb(247, 247, 247);
 }
