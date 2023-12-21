@@ -1,8 +1,8 @@
 /* Codigo general compartido en todo el programa*/
 body{
-  margin: auto;
-  background-color:rgb(247, 247, 247);
-  font-family:'Lato', 'Noto Serif';
+	margin: auto;
+	background-color:rgb(247, 247, 247);
+	font-family:'Lato', 'Noto Serif';
 }
 li{
 	list-style: none;
@@ -15,14 +15,15 @@ a:hover{
 	color:rgb(0, 59, 74);
 }
 .right{
-  text-align: right;
+	text-align: right;
 }
 .left{
-  text-align: left;
+	text-align: left;
 }
 ul{
 	padding:0;
 }
+
 /* Cabecera programa */
 header{
 	background-color:rgb(255, 255, 255);
@@ -53,25 +54,26 @@ header{
 .hlin{
 	color:rgb(0,59,74);
 	text-decoration: none;
-	font-weight:700;
+	font-weight:900;
 }
 .hlin:hover{
 	color:rgb(191,12,240);
 }
 /* Pie de pagina */
 footer{
-  background-color: rgb(0, 59, 74);
-  color:rgb(255,255,255);
-  padding-left: 3vw;
-  padding-right: 3vw;
-  padding-top: 2vw;
-  padding-bottom: 4vw;
+	background-color: rgb(0, 59, 74);
+	color:rgb(255,255,255);
+	padding-left: 3vw;
+	padding-right: 3vw;
+	padding-top: 2vw;
+	padding-bottom: 4vw;
 }
 @media (min-width: 600px){
 #pie1{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
+	position: sticky;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
 }
 .right2{
   text-align: right;
@@ -88,6 +90,10 @@ footer{
 	padding-left: 0.5rem;
 	border-left: 1px solid;
 }
+.lis3{
+	display: inline;
+	padding-left: 0.5rem;
+}
 .lis4{
 	display: inline;
 	padding-left: 0.5rem;
@@ -95,10 +101,11 @@ footer{
 	border-left: 1px solid;
 }
 #pie2{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-  font-size: 0.7rem;
+	position: sticky;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
+	font-size: 0.7rem;
 }
 }
 @media (max-width: 600px){
@@ -115,16 +122,14 @@ footer{
 }
 .lis5{
 }
+.lis3{
+}
 .lis4{
 }
 #pie2{
-  font-size: 0.7rem;
-  text-align:center;
+	font-size: 0.7rem;
+	text-align:center;
 }
-}
-.lis3{
-	display: inline;
-	padding-left: 0.5rem;
 }
 .ilin{
 	text-decoration: none;
@@ -139,7 +144,6 @@ footer{
 .elin:hover{
 	color:rgb(229,225,254);
 }
-
 /* Codigo para el cuerpo, parte común en todo el documento*/
 @media (max-width: 600px){
 	main{
@@ -147,8 +151,23 @@ footer{
 		padding-right: 2vw;
 	}
 }
+main{
+	font-size:2rem;
+}
 
 /*Codigo para la parte index.html*/
 .speHead{
 	background-color:rgb(247, 247, 247);
+}
+.titulo{
+	background-image:url("images/hero-image-home.jpg");
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+	padding-left:20vw;
+	padding-right:40vw;
+	padding-top:10vw;
+	padding-bottom:10vw;
+}
+h1.FW900{
+	font-weight:900;
 }
