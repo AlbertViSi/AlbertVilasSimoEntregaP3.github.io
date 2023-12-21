@@ -114,12 +114,6 @@ footer{
 .right2{
 	text-align:center;
 }
-.lis1{
-}
-.lis5{
-}
-.lis4{
-}
 #pie2{
 	font-size: 0.7rem;
 }
@@ -142,41 +136,56 @@ footer{
 	main{
 		padding-left: 2vw;
 		padding-right: 2vw;
+		font-size:1rem
 	}
 }
-main{
-	font-size:1.5rem;
+@media (min-width: 600px){
+	main{
+		font-size:1.5rem;
+	}
 }
+
 
 /*Codigo para la parte index.html*/
 .speHead{
 	background-color:rgb(247, 247, 247);
 }
-.titulo{
-	background-image:url("images/hero-image-home.jpg");
-	background-repeat: no-repeat;
-	background-size:100% 100%;
-	padding-left:15vw;
-	padding-right:40vw;
-	padding-top:10vw;
-	padding-bottom:10vw;
+@media (min-width: 600px){
+	.titulo{
+		background-image:url("images/hero-image-home.jpg");
+		background-repeat: no-repeat;
+		background-size:100% 100%;
+		padding-left:15vw;
+		padding-right:40vw;
+		padding-top:10vw;
+		padding-bottom:10vw;
+	}
 }
 h1.FW900{
 	font-weight:900;
 }
 @media (min-width: 600px){
-.formulario{
-	padding-right:15vw;
-	padding-left:15vw;
-	padding-top:3vw;
-	padding-bottom:3vw;
+	.formulario{
+		padding-right:15vw;
+		padding-left:15vw;
+		padding-top:3vw;
+		padding-bottom:3vw;
+	}
+	.grid{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap:5vw;
+	}
+	h1.FW900{
+		font-size:4.5rem;
+	}
 }
-.grid{
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-gap:5vw;
-}
-h1.FW900{
-	font-size:4.5rem;
-}
+@media (max-width: 600px){
+	.formulario{
+		padding-top:3vw;
+		padding-bottom:3vw;
+	}
+	h1.FW900{
+		font-size:2rem;
+	}
 }
