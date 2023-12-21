@@ -140,6 +140,14 @@ footer{
 	color:rgb(229,225,254);
 }
 
+/* Codigo para el cuerpo, parte común en todo el documento*/
+@media (max-width: 600px){
+	main{
+		padding-left: 2vw;
+		padding-right: 2vw;
+	}
+}
+
 /*Codigo para la parte index.html*/
 .speHead{
 	background-color:rgb(247, 247, 247);
