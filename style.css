@@ -192,7 +192,7 @@ h1.FW900{
 	.titulo{
 		background-image:url("images/hero-image-home.jpg");
 		background-repeat: no-repeat;
-		background-size:auto 100%;
+		background-size:;
 		padding-top:10vw;
 		padding-bottom:10vw;
 		padding-left: 2vw;
