@@ -163,7 +163,6 @@ main{
 }
 h1.FW900{
 	font-weight:900;
-	font-size:4.5rem;
 }
 @media (min-width: 600px){
 .formulario{
@@ -176,5 +175,8 @@ h1.FW900{
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-gap:5vw;
+}
+h1.FW900{
+	font-size:4.5rem;
 }
 }
