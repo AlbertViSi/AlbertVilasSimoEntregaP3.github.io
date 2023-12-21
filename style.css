@@ -68,9 +68,12 @@ footer{
 	padding-top: 2vw;
 	padding-bottom: 4vw;
 }
+.lis3{
+	display: inline;
+	padding-left: 0.5rem;
+}
 @media (min-width: 600px){
-#pie1{
-	position: sticky;
+#pie{
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	align-items: center;
@@ -90,10 +93,6 @@ footer{
 	padding-left: 0.5rem;
 	border-left: 1px solid;
 }
-.lis3{
-	display: inline;
-	padding-left: 0.5rem;
-}
 .lis4{
 	display: inline;
 	padding-left: 0.5rem;
@@ -101,15 +100,11 @@ footer{
 	border-left: 1px solid;
 }
 #pie2{
-	position: sticky;
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	align-items: center;
 	font-size: 0.7rem;
 }
 }
 @media (max-width: 600px){
-#pie1{
+#pie{
   text-align:center;
 }
 .left2{
@@ -122,13 +117,10 @@ footer{
 }
 .lis5{
 }
-.lis3{
-}
 .lis4{
 }
 #pie2{
 	font-size: 0.7rem;
-	text-align:center;
 }
 }
 .ilin{
@@ -152,7 +144,7 @@ footer{
 	}
 }
 main{
-	font-size:2rem;
+	font-size:1.5rem;
 }
 
 /*Codigo para la parte index.html*/
@@ -163,11 +155,25 @@ main{
 	background-image:url("images/hero-image-home.jpg");
 	background-repeat: no-repeat;
 	background-size:100% 100%;
-	padding-left:20vw;
+	padding-left:15vw;
 	padding-right:40vw;
 	padding-top:10vw;
 	padding-bottom:10vw;
 }
 h1.FW900{
 	font-weight:900;
+	font-size:4.5rem;
+}
+@media (min-width: 600px){
+.formulario{
+	padding-right:15vw;
+	padding-left:15vw;
+	padding-top:3vw;
+	padding-bottom:3vw;
+}
+.grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap:5vw;
+}
 }
