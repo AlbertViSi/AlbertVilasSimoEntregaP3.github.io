@@ -60,6 +60,7 @@ header{
 .hlin:hover{
 	color:rgb(191,12,240);
 }
+
 /* Pie de pagina */
 footer{
 	background-color: rgb(0, 59, 74);
@@ -131,11 +132,8 @@ footer{
 .elin:hover{
 	color:rgb(229,225,254);
 }
-/* Codigo para el cuerpo, parte común en todo el documento*/
 @media (max-width: 600px){
 	main{
-		padding-left: 2vw;
-		padding-right: 2vw;
 		font-size:1rem
 	}
 }
@@ -150,6 +148,9 @@ footer{
 .speHead{
 	background-color:rgb(247, 247, 247);
 }
+h1.FW900{
+	font-weight:900;
+}
 @media (min-width: 600px){
 	.titulo{
 		background-image:url("images/hero-image-home.jpg");
@@ -160,11 +161,6 @@ footer{
 		padding-top:10vw;
 		padding-bottom:10vw;
 	}
-}
-h1.FW900{
-	font-weight:900;
-}
-@media (min-width: 600px){
 	.formulario{
 		padding-right:15vw;
 		padding-left:15vw;
@@ -179,13 +175,44 @@ h1.FW900{
 	h1.FW900{
 		font-size:4.5rem;
 	}
+	.campo{
+		font-size:1.5rem;
+	}
+	.legal{
+		font-size:1rem;
+	}
 }
 @media (max-width: 600px){
 	.formulario{
 		padding-top:3vw;
 		padding-bottom:3vw;
+		padding-left: 2vw;
+		padding-right: 2vw;
+	}
+	.titulo{
+		background-image:url("images/hero-image-home.jpg");
+		background-repeat: no-repeat;
+		background-size:auto 100%;
+		padding-top:10vw;
+		padding-bottom:10vw;
+		padding-left: 2vw;
+		padding-right: 2vw;
 	}
 	h1.FW900{
 		font-size:2rem;
 	}
+	.campo{
+		font-size:1rem;
+	}
+	.legal{
+		font-size:0.8rem;
+	}
+}
+.campo{
+	width:95%;
+	padding:0.5vw;
+	margin-top:-1vw;
+	border-radius:7px;
+	border:solid 2px;
+	border-color:rgb(229, 225, 254);
 }
