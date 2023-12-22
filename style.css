@@ -181,6 +181,9 @@ h1.FW900{
 	.legal{
 		font-size:1rem;
 	}
+	.sus{
+		font-size:1.5rem;
+	}
 }
 @media (max-width: 600px){
 	.formulario{
@@ -192,7 +195,7 @@ h1.FW900{
 	.titulo{
 		background-image:url("images/hero-image-home.jpg");
 		background-repeat: no-repeat;
-		background-size:100% 100%;
+		background-size:auto 100%;
 		padding-top:10vw;
 		padding-bottom:10vw;
 		padding-left: 2vw;
@@ -207,6 +210,16 @@ h1.FW900{
 	.legal{
 		font-size:0.8rem;
 	}
+	.sus{
+		font-size:1rem;
+	}
+}
+.sus{
+	color:rgb(255,255,255);
+	border-radius:5px;
+	border:none;
+	background-color:rgb(0, 59, 74);
+	padding:0.5rem;
 }
 .campo{
 	width:95%;
