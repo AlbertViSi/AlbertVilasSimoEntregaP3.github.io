@@ -148,7 +148,7 @@ footer{
 }
 
 /*Codigo para la parte index.html*/
-@media (min-width: 600px){
+@media (min-width: 700px){
 	.titulo{
 		background-image:url("images/hero-image-home.jpg");
 		background-repeat: no-repeat;
@@ -210,11 +210,11 @@ footer{
 		padding-bottom:3vw;
 	}
 }
-@media (max-width: 600px){
+@media (max-width: 700px){
 	.apartados{
 		padding-left: 2vw;
 		padding-right: 2vw;
-		padding-top:3vw;
+		padding-top:6vw;
 		padding-bottom:3vw;
 	}
 	.formulario{
@@ -256,21 +256,23 @@ footer{
 		grid-template-columns:1fr;
 		grid-gap:3vw;
 		align-items:center;
-		padding-bottom:3vw;
+		margin-bottom:3vw;
 	}
 	.gridright{
 		display:grid;
 		grid-template-columns:1fr;
 		grid-gap:3vw;
 		align-items:center;
-		padding-bottom:3vw;
+		margin-bottom:3vw;
 	}
 	.leftimage{
 		text-align:right;
+		width:100%;
 		order:1;
 	}
 	.rightimage{
 		text-align:right;
+		width:100%;
 		order:1;
 	}
 	.lefttext{
