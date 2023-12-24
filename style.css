@@ -49,11 +49,11 @@ header{
 	font-size: 1rem;
 }
 .cab{
-  height:5rem;
-  position: sticky;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
+	height:5rem;
+	position: sticky;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
 }
 .logo{
 	height: 2.5rem;
@@ -240,7 +240,7 @@ footer{
 	.titulo{
 		background-image:url("images/hero-image-home.jpg");
 		background-repeat: no-repeat;
-		background-size:auto 100%;
+		background-position:center bottom;
 		padding-top:10vw;
 		padding-bottom:10vw;
 		padding-left: 2vw;
