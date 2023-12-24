@@ -147,7 +147,6 @@ footer{
 	}
 }
 
-/*Codigo para la parte index.html*/
 @media (min-width: 700px){
 	.titulo{
 		background-image:url("images/hero-image-home.jpg");
@@ -209,6 +208,9 @@ footer{
 		align-items:center;
 		padding-bottom:3vw;
 	}
+	.imapar{
+		width:100%;
+	}
 }
 @media (max-width: 700px){
 	.apartados{
@@ -256,23 +258,21 @@ footer{
 		grid-template-columns:1fr;
 		grid-gap:3vw;
 		align-items:center;
-		margin-bottom:3vw;
+		margin-bottom:10vw;
 	}
 	.gridright{
 		display:grid;
 		grid-template-columns:1fr;
 		grid-gap:3vw;
 		align-items:center;
-		margin-bottom:3vw;
+		margin-bottom:10vw;
 	}
 	.leftimage{
 		text-align:right;
-		width:100%;
 		order:1;
 	}
 	.rightimage{
 		text-align:right;
-		width:100%;
 		order:1;
 	}
 	.lefttext{
@@ -280,6 +280,9 @@ footer{
 	}
 	.righttext{
 		order:2;
+	}
+	.imapar{
+		width:100%;
 	}
 }
 .paddingbot{
