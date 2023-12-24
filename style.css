@@ -11,19 +11,6 @@ li{
 a{
 	color:rgb(191, 12, 240);
 	text-decoration: underline dotted;
-}/* Codigo general compartido en todo el programa*/
-body{
-	margin: auto;
-	background-color:rgb(247, 247, 247);
-	font-family:'Lato', 'Noto Serif';
-	font-weight:300;
-}
-li{
-	list-style: none;
-}
-a{
-	color:rgb(191, 12, 240);
-	text-decoration: underline dotted;
 }
 a:hover{
 	color:rgb(0, 59, 74);
@@ -240,6 +227,7 @@ footer{
 	.titulo{
 		background-image:url("images/hero-image-home.jpg");
 		background-repeat: no-repeat;
+		background-size:200% 100%;
 		background-position:center bottom;
 		padding-top:10vw;
 		padding-bottom:10vw;
