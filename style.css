@@ -147,7 +147,6 @@ footer{
 	}
 }
 
-
 /*Codigo para la parte index.html*/
 @media (min-width: 600px){
 	.titulo{
@@ -252,6 +251,34 @@ footer{
 	.right{
 		text-align:right;
 	}
+	.gridleft{
+		display:grid;
+		grid-template-columns:1fr;
+		grid-gap:3vw;
+		align-items:center;
+		padding-bottom:3vw;
+	}
+	.gridright{
+		display:grid;
+		grid-template-columns:1fr;
+		grid-gap:3vw;
+		align-items:center;
+		padding-bottom:3vw;
+	}
+	.leftimage{
+		text-align:right;
+		order:1;
+	}
+	.rightimage{
+		text-align:right;
+		order:1;
+	}
+	.lefttext{
+		order:2;		
+	}
+	.righttext{
+		order:2;
+	}
 }
 .paddingbot{
 	padding-bottom:3vw
@@ -288,4 +315,5 @@ h1.FW900{
 }
 legend{
 	font-size:40%;
+	text-align:right;
 }
