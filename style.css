@@ -11,6 +11,19 @@ li{
 a{
 	color:rgb(191, 12, 240);
 	text-decoration: underline dotted;
+}/* Codigo general compartido en todo el programa*/
+body{
+	margin: auto;
+	background-color:rgb(247, 247, 247);
+	font-family:'Lato', 'Noto Serif';
+	font-weight:300;
+}
+li{
+	list-style: none;
+}
+a{
+	color:rgb(191, 12, 240);
+	text-decoration: underline dotted;
 }
 a:hover{
 	color:rgb(0, 59, 74);
@@ -24,7 +37,9 @@ a:hover{
 ul{
 	padding:0;
 }
-
+a.spe{
+	text-decoration:none;
+}
 /* Cabecera programa */
 header{
 	background-color:rgb(255, 255, 255);
@@ -132,6 +147,8 @@ footer{
 .elin:hover{
 	color:rgb(229,225,254);
 }
+
+/* Codigo para el cuerpo, parte común en todo el documento*/
 @media (max-width: 600px){
 	main{
 		font-size:1rem
@@ -145,12 +162,6 @@ footer{
 
 
 /*Codigo para la parte index.html*/
-.speHead{
-	background-color:rgb(247, 247, 247);
-}
-h1.FW900{
-	font-weight:900;
-}
 @media (min-width: 600px){
 	.titulo{
 		background-image:url("images/hero-image-home.jpg");
@@ -161,11 +172,17 @@ h1.FW900{
 		padding-top:10vw;
 		padding-bottom:10vw;
 	}
-	.formulario{
+	.apartados{
 		padding-right:15vw;
 		padding-left:15vw;
+		padding-top:4vw;
+		padding-bottom:4vw;
+	}
+	.formulario{
 		padding-top:3vw;
 		padding-bottom:3vw;
+		padding-left:15vw;
+		padding-right:15vw;
 	}
 	.grid{
 		display: grid;
@@ -182,10 +199,38 @@ h1.FW900{
 		font-size:1rem;
 	}
 	.sus{
-		font-size:1.5rem;
+		font-size:1.2rem;
+	}
+	.leftimage{
+		transform:rotate(-5deg);
+		text-align:right;
+	}
+	.rightimage{
+		transform:rotate(5deg);
+		text-align:right;
+	}
+	.gridleft{
+		display:grid;
+		grid-template-columns:1fr 2fr;
+		grid-gap:3vw;
+		align-items:center;
+		padding-bottom:3vw;
+	}
+	.gridright{
+		display:grid;
+		grid-template-columns:2fr 1fr;
+		grid-gap:3vw;
+		align-items:center;
+		padding-bottom:3vw;
 	}
 }
 @media (max-width: 600px){
+	.apartados{
+		padding-left: 2vw;
+		padding-right: 2vw;
+		padding-top:3vw;
+		padding-bottom:3vw;
+	}
 	.formulario{
 		padding-top:3vw;
 		padding-bottom:3vw;
@@ -213,13 +258,34 @@ h1.FW900{
 	.sus{
 		font-size:1rem;
 	}
+	.left{
+		text-align:right;
+	}
+	.right{
+		text-align:right;
+	}
+}
+.paddingbot{
+	padding-bottom:3vw
+}
+.speHead{
+	background-color:rgb(247, 247, 247);
+}
+h1.FW900{
+	font-weight:900;
 }
 .sus{
 	color:rgb(255,255,255);
 	border-radius:5px;
 	border:none;
 	background-color:rgb(0, 59, 74);
-	padding:0.5rem;
+	padding-left:1rem;
+	padding-right:1rem;
+	padding-top:0.5rem;
+	padding-bottom:0.5rem;
+}
+.sus:hover{
+	background-color:rgb(191, 12, 240);
 }
 .campo{
 	width:95%;
@@ -228,4 +294,10 @@ h1.FW900{
 	border-radius:7px;
 	border:solid 2px;
 	border-color:rgb(229, 225, 254);
+}
+.apartados{
+	background-color:rgb(229, 225, 254);
+}
+legend{
+	font-size:40%;
 }
