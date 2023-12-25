@@ -27,6 +27,9 @@ ul{
 a.spe{
 	text-decoration:none;
 }
+h1, h2{
+	font-family:'Noto Serif';
+}
 /* Cabecera programa */
 header{
 	background-color:rgb(255, 255, 255);
@@ -36,11 +39,11 @@ header{
 	font-size: 1rem;
 }
 .cab{
-	height:5rem;
-	position: sticky;
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	align-items: center;
+  height:5rem;
+  position: sticky;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
 }
 .logo{
 	height: 2.5rem;
@@ -76,7 +79,7 @@ footer{
 	display: inline;
 	padding-left: 0.5rem;
 }
-@media (min-width: 600px){
+@media (min-width: 992px){
 #pie{
 	display: grid;
 	grid-template-columns: 1fr 1fr;
@@ -107,7 +110,7 @@ footer{
 	font-size: 0.7rem;
 }
 }
-@media (max-width: 600px){
+@media (max-width: 992px){
 #pie{
   text-align:center;
 }
@@ -136,18 +139,20 @@ footer{
 }
 
 /* Codigo para el cuerpo, parte común en todo el documento*/
-@media (max-width: 600px){
+@media (max-width: 992px){
 	main{
 		font-size:1rem
 	}
 }
-@media (min-width: 600px){
+@media (min-width: 992px){
 	main{
 		font-size:1.5rem;
 	}
 }
 
-@media (min-width: 700px){
+
+/*Codigo para la parte index.html*/
+@media (min-width: 992px){
 	.titulo{
 		background-image:url("images/hero-image-home.jpg");
 		background-repeat: no-repeat;
@@ -176,6 +181,7 @@ footer{
 	}
 	h1.FW900{
 		font-size:4.5rem;
+		font-family:'Lato';
 	}
 	.campo{
 		font-size:1.5rem;
@@ -212,7 +218,7 @@ footer{
 		width:100%;
 	}
 }
-@media (max-width: 700px){
+@media (max-width: 992px){
 	.apartados{
 		padding-left: 2vw;
 		padding-right: 2vw;
@@ -321,4 +327,79 @@ h1.FW900{
 legend{
 	font-size:40%;
 	text-align:right;
+}
+
+/*Codigo para la parte video.html*/
+@media (min-width: 1200px){
+	.videoform{
+		padding-top:1vw;
+		padding-bottom:10vw;
+		padding-left:4vw;
+		padding-right:4vw;
+	}
+	.vid{
+		display: grid;
+		grid-template-columns: repeat(auto-fill,calc(85%/3));
+		justify-content: left;
+		grid-gap: 5vw;
+		height: auto;
+	}
+}
+@media (max-width: 1200px) and (min-width:992px){
+	.videoform{
+		padding-top:1vw;
+		padding-bottom:10vw;
+		padding-left:2vw;
+		padding-right:2vw;
+	}
+	.vid{
+		display: grid;
+		grid-template-columns: repeat(auto-fill,calc(90%/2));
+		justify-content: left;
+		grid-gap: 5vw;
+		height: auto;
+	}
+}
+@media (max-width: 992){
+	.videoform{
+		padding-top:1vw;
+		padding-bottom:10vw;
+		padding-left:2vw;
+		padding-right:2vw;
+	}
+	.vid{
+		display: grid;
+		grid-template-columns: repeat(auto-fill,1fr);
+		justify-content: left;
+		height: auto;
+		grid-gap: 5vw;
+	}
+}
+.vidbox{
+	border: solid 1px rgb(229, 225, 254);
+	position: relative;
+	background-color: rgb(255,255,255);
+	width:100%;
+	padding:0;
+}
+.vidlegend{
+	background-color: rgb(255,255,255);
+	box-sizing: border-box;
+	width: 100%;
+	font-size:80%;
+	padding-left:2vw;
+	padding-right:2vw;
+	padding-bottom:2vw;
+}
+.responsiveiframe{
+	width:100%;
+	height:0;
+	padding-bottom:56.25%;
+	position:relative;
+}
+iframe{
+	position:absolute;
+	width:100%;
+	height:100%;
+	border:none;
 }
