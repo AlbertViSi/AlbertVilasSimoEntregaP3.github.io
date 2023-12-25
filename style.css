@@ -360,7 +360,7 @@ legend{
 		height: auto;
 	}
 }
-@media (max-width: 992){
+@media (max-width: 992px){
 	.videoform{
 		padding-top:1vw;
 		padding-bottom:10vw;
