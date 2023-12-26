@@ -4,6 +4,7 @@ body{
 	background-color:rgb(247, 247, 247);
 	font-family:'Lato', 'Noto Serif';
 	font-weight:300;
+	color: rgb(0, 59, 74);
 }
 li{
 	list-style: none;
@@ -386,20 +387,13 @@ legend{
 	text-align:right;
 }
 
-/*Codigo para la parte video.html*/
+/*Codigo común entre video y blog*/
 @media (min-width: 1200px){
 	.videoform{
 		padding-top:1vw;
 		padding-bottom:10vw;
 		padding-left:4vw;
 		padding-right:4vw;
-	}
-	.vid{
-		display: grid;
-		grid-template-columns: repeat(auto-fill,calc(85%/3));
-		justify-content: left;
-		grid-gap: 5vw;
-		height: auto;
 	}
 }
 @media (max-width: 1200px) and (min-width:992px){
@@ -409,13 +403,6 @@ legend{
 		padding-left:2vw;
 		padding-right:2vw;
 	}
-	.vid{
-		display: grid;
-		grid-template-columns: repeat(auto-fill,calc(90%/2));
-		justify-content: left;
-		grid-gap: 5vw;
-		height: auto;
-	}
 }
 @media (max-width: 992px){
 	.videoform{
@@ -424,13 +411,6 @@ legend{
 		padding-left:2vw;
 		padding-right:2vw;
 	}
-	.vid{
-		display: grid;
-		grid-template-columns: repeat(auto-fill,1fr);
-		justify-content: left;
-		height: auto;
-		grid-gap: 5vw;
-	}
 }
 .vidbox{
 	border: solid 1px rgb(229, 225, 254);
@@ -438,8 +418,150 @@ legend{
 	background-color: rgb(255,255,255);
 	width:100%;
 }
-.vidlegend{
+
+/*Codigo para la parte blog.html*/
+@media (min-width: 1200px){
+	.firstblog{
+		grid-column: span 2;
+	}
+	.blo{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		justify-content: left;
+		grid-gap: 4vw;
+	}
+	.eti1{
+		font-size:40%;
+	}
+.eti2{
+		font-size:40%;
+	}
+	.blogleg{
+		font-size:60%;
+	}
+}
+@media (max-width: 1200px) and (min-width:992px){
+	.blo{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		justify-content: left;
+		grid-gap: 4vw;
+	}
+	.eti1{
+		font-size:40%;
+	}
+.eti2{
+		font-size:40%;
+	}
+	.blogleg{
+		font-size:60%;
+	}
+}
+@media (max-width: 992px){
+	.blo{
+		display: grid;
+		grid-template-columns: 1fr;
+		justify-content: left;
+		height: auto;
+		grid-gap: 4vw;
+	}
+	.eti1{
+		font-size:80%;
+	}
+	.eti2{
+		font-size:80%;
+	}
+	.blogleg{
+		font-size:80%;
+	}
+	
+}
+.firstblog{
+	border: solid 1px rgb(229, 225, 254);
+	position: relative;
 	background-color: rgb(255,255,255);
+	width:100%;
+}
+.overlaytext{
+	position:relative;
+}
+.blogima{
+	width:100%;
+}
+.eti1{
+	position:absolute;
+	border:none;
+	top:2%;
+	left:1%;
+	background-color:rgb(0, 59, 74);
+	color:rgb(255,255,255);
+	padding:0.5vw;
+}
+.eti2{
+	position:absolute;
+	border:none;
+	bottom:4%;
+	right:2%;
+	background-color:rgba(247, 247, 247,0.7);
+	padding-left:0.5vw;
+	padding-right:0.5vw;
+	padding-top:0.3vw;
+	padding-bottom:0.3vw;
+	font-weight:700;
+}
+.blogleg{
+	box-sizing: border-box;
+	width: 100%;
+	padding-left:2vw;
+	padding-right:2vw;
+	padding-bottom:2vw;
+}
+.imaleg{
+	color:rgb(158, 157, 171);
+}
+a.speT,a.speC{
+	text-decoration:none;
+	color:inherit;
+}
+a.speT:hover{
+	color:rgb(191, 12, 240);
+}
+.eti1:hover{
+	background-color: rgb(191, 12, 240);
+}
+.leer{
+	font-size:100%;
+}
+
+/*Codigo para la parte video.html*/
+@media (min-width: 1200px){
+	.vid{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		justify-content: left;
+		grid-gap: 4vw;
+		height: auto;
+	}
+}
+@media (max-width: 1200px) and (min-width:992px){
+	.vid{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		justify-content: left;
+		grid-gap: 4vw;
+		height: auto;
+	}
+}
+@media (max-width: 992px){
+	.vid{
+		display: grid;
+		grid-template-columns: 1fr;
+		justify-content: left;
+		height: auto;
+		grid-gap: 4vw;
+	}
+}
+.vidlegend{
 	box-sizing: border-box;
 	width: 100%;
 	font-size:80%;
