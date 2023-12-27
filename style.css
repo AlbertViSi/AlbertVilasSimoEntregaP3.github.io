@@ -391,7 +391,7 @@ legend{
 @media (min-width: 1200px){
 	.videoform{
 		padding-top:1vw;
-		padding-bottom:10vw;
+		padding-bottom:7vw;
 		padding-left:4vw;
 		padding-right:4vw;
 	}
@@ -399,7 +399,7 @@ legend{
 @media (max-width: 1200px) and (min-width:992px){
 	.videoform{
 		padding-top:1vw;
-		padding-bottom:10vw;
+		padding-bottom:7vw;
 		padding-left:2vw;
 		padding-right:2vw;
 	}
@@ -407,7 +407,7 @@ legend{
 @media (max-width: 992px){
 	.videoform{
 		padding-top:1vw;
-		padding-bottom:10vw;
+		padding-bottom:7vw;
 		padding-left:2vw;
 		padding-right:2vw;
 	}
@@ -429,15 +429,19 @@ legend{
 		grid-template-columns: 1fr 1fr 1fr 1fr;
 		justify-content: left;
 		grid-gap: 4vw;
+		margin-bottom:2vw;
 	}
 	.eti1{
 		font-size:40%;
 	}
-.eti2{
+	.eti2{
 		font-size:40%;
 	}
 	.blogleg{
 		font-size:60%;
+	}
+	.center{
+		font-size:80%;
 	}
 }
 @media (max-width: 1200px) and (min-width:992px){
@@ -446,15 +450,19 @@ legend{
 		grid-template-columns: 1fr 1fr;
 		justify-content: left;
 		grid-gap: 4vw;
+		margin-bottom:2vw;
 	}
 	.eti1{
 		font-size:40%;
 	}
-.eti2{
+	.eti2{
 		font-size:40%;
 	}
 	.blogleg{
 		font-size:60%;
+	}
+	.center{
+		font-size:80%;
 	}
 }
 @media (max-width: 992px){
@@ -464,6 +472,7 @@ legend{
 		justify-content: left;
 		height: auto;
 		grid-gap: 4vw;
+		margin-bottom:2vw;
 	}
 	.eti1{
 		font-size:80%;
@@ -472,6 +481,9 @@ legend{
 		font-size:80%;
 	}
 	.blogleg{
+		font-size:80%;
+	}
+	.center{
 		font-size:80%;
 	}
 	
@@ -531,6 +543,36 @@ a.speT:hover{
 }
 .leer{
 	font-size:100%;
+}
+.center{
+	text-align:center;
+}
+.blognav{
+	display:inline-flex;
+}
+.First, .Next, .More{
+	text-decoration:none;
+	padding:0.3vw;
+}
+.First{
+	color:rgb(255,255,255);
+	border:solid 1px rgb(191, 12, 240);
+	background-color:rgb(191, 12, 240);
+	margin-right:1vw;
+}
+.Next{
+	color:rgb(0, 59, 74);
+	border:solid 1px rgb(0, 59, 74);
+	background-color:rgb(255,255,255);
+	margin-right:1vw;
+}
+.More{
+	color:rgb(0, 59, 74);
+	border:solid 1px rgb(0, 59, 74);
+	background-color:rgb(255,255,255);
+}
+.Next:hover, .More:hover{
+	background-color:rgb(191, 12, 240);
 }
 
 /*Codigo para la parte video.html*/
