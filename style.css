@@ -144,7 +144,7 @@ footer{
 }
 @media (min-width: 992px){
 	main{
-		font-size:1.5rem;
+		font-size:1.2rem;
 	}
 }
 
@@ -438,10 +438,13 @@ legend{
 		font-size:40%;
 	}
 	.blogleg{
-		font-size:60%;
+		font-size:80%;
 	}
 	.center{
-		font-size:80%;
+		font-size:90%;
+	}
+	.imaleg{
+		font-size:70%;
 	}
 }
 @media (max-width: 1200px) and (min-width:992px){
@@ -462,7 +465,10 @@ legend{
 		font-size:60%;
 	}
 	.center{
-		font-size:80%;
+		font-size:90%;
+	}
+	.imaleg{
+		font-size:70%;
 	}
 }
 @media (max-width: 992px){
@@ -475,18 +481,17 @@ legend{
 		margin-bottom:2vw;
 	}
 	.eti1{
-		font-size:80%;
+		font-size:90%;
 	}
 	.eti2{
-		font-size:80%;
+		font-size:90%;
 	}
 	.blogleg{
-		font-size:80%;
+		font-size:100%;
 	}
 	.center{
-		font-size:80%;
-	}
-	
+		font-size:90%;
+	}	
 }
 .firstblog{
 	border: solid 1px rgb(229, 225, 254);
@@ -498,7 +503,7 @@ legend{
 	position:relative;
 }
 .blogima{
-	width:100%;
+	width:100%; /*Usado en entrada.html tambien, cuidado si se modifica*/
 }
 .eti1{
 	position:absolute;
@@ -547,7 +552,7 @@ a.speT:hover{
 .center{
 	text-align:center;
 }
-.blognav{
+.blognav{ /*Usado en Entrada.html*/
 	display:inline-flex;
 }
 .First, .Next, .More{
@@ -572,6 +577,193 @@ a.speT:hover{
 	background-color:rgb(255,255,255);
 }
 .Next:hover, .More:hover{
+	background-color:rgb(191, 12, 240);
+}
+
+/* Codigo para la parte entrada.html*/
+@media (min-width: 1200px){
+	.entfor{
+		padding-top:1vw;
+		padding-bottom:7vw;
+		padding-left:15vw;
+		padding-right:15vw;
+	}
+	.cueent{
+		display: grid;
+		grid-template-columns: 2fr 1fr;
+		justify-content: left;
+		grid-gap: 4vw;
+		height: auto;
+	}
+	blockquote{
+		padding-left: 1rem;
+	}
+	.bigger{
+		font-size:1.2rem;
+	}
+	.adds{
+		display: grid;
+		grid-template-columns: 1fr;
+		justify-content: left;
+		grid-gap: 4vw;
+		height: auto;
+	}
+	.cat{
+		font-size:75%;
+	}
+}
+@media (max-width: 1200px) and (min-width:992px){
+	.entfor{
+		padding-top:1vw;
+		padding-bottom:7vw;
+		padding-left:2vw;
+		padding-right:2vw;
+	}
+	.cueent{
+		display: grid;
+		grid-template-columns: 1fr;
+		justify-content: left;
+		grid-gap: 4vw;
+		height: auto;
+	}
+	.adds{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		justify-content: left;
+		grid-gap: 4vw;
+		height: auto;
+	}
+	.cat{
+		font-size:75%;
+	}
+	ol{
+		margin-left:-1rem;
+	}
+	blockquote{
+		padding-left: 1rem;
+		position:relative;
+		right:2.5rem;
+	}
+}
+@media (max-width: 992px){
+	.entfor{
+		padding-top:1vw;
+		padding-bottom:7vw;
+		padding-left:2vw;
+		padding-right:2vw;
+	}
+	.cueent{
+		display: grid;
+		grid-template-columns: 1fr;
+		justify-content: left;
+		grid-gap: 4vw;
+		height: auto;
+	}
+	.adds{
+		display: grid;
+		grid-template-columns: 1fr;
+		justify-content: left;
+		grid-gap: 4vw;
+		height: auto;
+	}
+	.cat{
+		font-size:85%;
+	}
+	ol{
+		margin-left:-1rem;
+	}
+	blockquote{
+		padding-left: 1rem;
+		position:relative;
+		right:2.5rem;
+	}
+}
+.men{
+	font-size:70%;
+}
+.hent{
+	color:rgb(0,59,74);
+	text-decoration: none;
+}
+.hent:hover{
+	color:rgb(191,12,240);
+}
+.art{
+	background-color:rgb(255,255,255);
+	width:100%;
+	height:auto;
+	padding:0.5vw;
+}
+.figur{
+	background-color:rgb(229, 225, 254);
+}
+.figur2{
+	background-color:rgb(255, 255, 255);
+}
+.leg2{
+	padding-left:0.5vw;
+	padding-right:0.5vw;
+	padding-bottom:0.5vw;
+}
+.imag{
+	color:rgb(158, 157, 171);
+	font-size:70%;
+}
+.Fit{
+	color:rgb(0, 59, 74);
+}
+.smaller{
+	font-size:85%;
+}
+.smaller2{
+	font-size:75%;
+}
+.stylenum{
+	list-style:decimal;
+	padding-bottom:1rem;
+}
+.stylenum:last-child{
+	list-style:decimal;
+	padding-bottom:0rem;
+}
+.styledot{
+	list-style:disc;
+	padding-bottom:1rem;
+}
+.styledot:last-child{
+	list-style:disc;
+	padding-bottom:0rem;
+}
+blockquote{
+	border-left: 0.25rem solid rgb(191, 12, 240);
+}
+h2.nopad{
+	margin:0;
+}
+h1.nopad2{
+	margin-top:0.5vw;
+	margin-bottom:0;
+}
+h2.nopad2{
+	margin-top:0.5vw;
+	margin-bottom:0;
+}
+.cate{
+	margin-bottom:0.5rem;
+}
+.etiquetacat{
+	line-height:1.5rem;
+	margin-top:0;
+}
+.cat{
+	color:rgb(0, 59, 74);
+	background-color:rgb(255, 255, 255);
+	border:solid 1px rgb(0, 59, 74);
+	text-decoration:none;
+	margin-right:0.5rem;
+}
+.cat:hover{
+	color:rgb(255,255,255);
 	background-color:rgb(191, 12, 240);
 }
 
