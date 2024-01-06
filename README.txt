@@ -1,1 +1,16 @@
 Pequeña guia al codigo creado.
+Estructuracion HTML
+El codigo de HTML se ha estructurado de forma simple, este esta dividido en dos grandes secciones:
+1. head: Donde encontramos los enlaces que se usaran en la pagina web para preconectar, principalmente la fuente, la hoja de estilos y una sentencia de <meta> para el uso de la pagina desde dispositivos mobiles.
+2. body: donde se encuentra el codigo que vera el usuario, dividido a su vez en tres subcategorias:
+2.1 header: se ha colocado en esta categoria unicamente la barra superior, y es común en todo el programa, siendo que esta no cambia independientemetne de la pantalla en la que nos encontremos, contiene el menú de navegación
+2.2 main: aqui encontramos el cuerpo del codigo, siendo esa la parte central y dividida en multiples <div> para separar cada parte del codigo. Es importante mencionar que todos los <div> encapsulan parte del codigo como pueden ser grids y otros y, salvo los que unicamente son separadores para las diferentes partes de un grid y que tampoco hay muchos, tienen una clase que les da propiedades, en general se ha intentado que esas clases sean lo mas generales posibles para ser reutilizadas, pero debido a diferencias entre las partes del codigo la mayor parte de las clases son unicas de cada pagina quitando algunas excepciones. Finalmente los <div> se han estructurado de la forma mas entendedora que se ha podido, intentando que los elementos dentro de un div, si son numerosos, esten en diferente tabulacion y todo <div> existente se cierra en la misma linea de tabulacion que se ha iniciado.
+2.3 footer: El pie de pagina, donde encontramos creditos y la informacion legal.
+
+Estructuracion CSS
+Para la estructuracion de CSS se ha dividido a en diversos segmentos:
+1. Al inicio tenemos la parte de codigo mas general, es decir, aqui se han definido todos los elementos comunes que son usados en todas las partes del programa. Un ejemplo serian las caracteristicas de body o las caracteristicas de los enlaces.
+2. A continuacion se ha decidido dividir en header footer y main, es decir se han introducido todos los elementos que corresponden a dichos segmentos con la excepcion de main que simplemente se definen los elementos de main comunes en todas partes, siendo estos mas bien pocos.
+3. Finalmente comentar que la "ultima" division ha sido dividida en segmentos que se corresponden a cada una de las pantallas, blog, entrada, index y video. Donde dentro de cada una se definen los elementos que contienen y alguna separacion extra para elementos comunes entre video y blog, ademas de algunos elementos de video y blog reaprovechados en entrada que se ha puesto un comentario en el elementos en el CSS para tener cuidado a la hora de alterarlo.
+Cabe agregar que, como se ha dicho en el comentario de la estructuracion de HTML, se ha usado en gran medida clases para definir elementos en el programa y conseguir los resultados esperados, por lo que en su mayoria lo que se define el CSS son clases para los distintos elementos del programa y, se ha intentado, que los nombres de las clases sean identificativos del elemento al cual corresponden.
+Finalmente agregar que, en todas las secciones se les ha añadido, de ser necesario una separacion de @media para los distintos tamaño de pantallas.
